@@ -2,7 +2,7 @@
 
 
 
-# Welcome to [Address Home ],
+#### Welcome to [Address Home ],
  where we specialize in offering a diverse range of home decor products to suit every style and occasion. Whether you're decorating a new space or searching for the perfect gift, we're here to help you create the home of your dreams.
 
 # Technologies Used
