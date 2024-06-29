@@ -1,0 +1,87 @@
+/* SignIn.css */
+
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  margin-top: -5vh;
+  margin-bottom: -5vh;
+    /* background-color: rgb(118, 101, 4); */
+    background-image: url('https://indiacircus.com/pub/media/catalog/product/cache/1/small_image/660x600/beff4985b56e3afdbeabfc89641a4582/i/n/india-circus-by-krsnaa-mehta-twirling-tropics-wallpaper-60121013sd00754-1.jpg');
+  }
+  
+  .signin-box {
+    max-width: 400px;
+    width: 100%;
+    background-color: #fa7c7c;
+    padding: 16px;
+    border-radius: 4px;
+    margin-top: -10vh;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signin-box h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    margin-left: 90px;
+  }
+  
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    margin-left: 70px;
+  }
+  
+  .form-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .signin-button {
+    background-color: #550316;
+    color: #fffafa;
+    font-size: 22px;
+    padding: 12px 0;
+    width: 150px;
+    margin-left: 18vh;
+    /* font-size: 16px; */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signin-button:hover {
+    background-color: #ef4216;
+  }
+  
+  .help {
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .help a {
+    color: #0066c0;
+    text-decoration: none;
+  }
+  
+  .help a:hover {
+    text-decoration: underline;
+  }
+  

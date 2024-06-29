@@ -1,0 +1,127 @@
+/* Header.css */
+
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.logout {
+  position: relative;
+  top: 18px;
+  font-size: 20px;
+}
+
+.header {
+  height: 17vh;
+  /* opacity:0.9; */
+  display: flex;
+  align-items: center;
+  background-color: rgb(17, 3, 26);
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+
+.header_logo {
+  display: flex;
+  align-items: center;
+  color: yellow;
+  margin: 0 15px;
+}
+
+.headerlogo_image {
+  margin-right: 10px;
+  color: white;
+}
+
+.header_logotitle {
+  color: white;
+  text-decoration: none;
+  border: 0;
+}
+
+.header_search > ul {
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-image: url('https://cdn.vectorstock.com/i/500p/27/46/home-ecology-gold-tree-logo-vector-14982746.jpg'); */
+  /* opacity: 1; */
+
+}
+
+.header_search > ul > li > a {
+  color: rgb(249, 244, 244);
+  text-align: center;
+  font-size: 1rem;
+
+}
+
+.header_search > ul > li {
+  padding: 10px; /* Adjust padding for smaller screens */
+}
+
+.header_nav {
+  margin: 0 12px;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  left:30vh;
+  top:2vh
+
+}
+
+.nav_item {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.nav_lineone {
+  font-size: 1.3rem;
+}
+
+.nav_linetwo {
+  font-size: 1rem;
+  font-weight: 800; margin-left: 15px;
+}
+
+.item_basket {
+  align-items: center;
+  color: rgb(238, 237, 237);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .header {
+    height: auto; /* Allow header to adjust height */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+    padding: 10px; /* Add padding for better spacing */
+  }
+
+  .header_logo {
+    margin: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .header_search {
+    display: none; /* Hide search on smaller screens */
+  }
+
+  .header_nav {
+    justify-content: center; /* Center items horizontally */
+    margin: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .nav_item {
+    margin: 5px; /* Adjust margin for smaller screens */
+  }
+}
+.header_logo img{
+  width:12vh;
+  /* margin-left: 5vh; */
+  margin: auto 4vh;
+}

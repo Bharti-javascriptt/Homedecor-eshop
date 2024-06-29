@@ -1,0 +1,28 @@
+{
+    "images": [
+      {
+        "src": "./image/1.jfif",
+        "alt": "Description of image 1",
+        "caption": "Optional caption for image 1"
+      },
+      {
+        "src": "./image/2.jfif",
+        "alt": "Description of image 2",
+        "caption": "Optional caption for image 2"
+      },
+      {
+        "src": "./image/3.jfif",
+        "alt": "Description of image 3",
+        "caption": "Optional caption for image 3"
+      },
+      {
+        "src": "./image/4.jfif",
+        "alt": "Description of image 4",
+        "caption": "Optional caption for image 4"
+      },
+      {
+        "src": "./image/5.jfif",
+        "alt": "Description of image 5",
+        "caption": "Optional caption"
+      }
+      ]}  

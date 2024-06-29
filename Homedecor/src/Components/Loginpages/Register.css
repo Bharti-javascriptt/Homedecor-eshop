@@ -1,0 +1,97 @@
+/* Signup.css */
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh; /* You may adjust this as needed */
+  /* background-color: #062040; */
+  background-image: url('https://i.pinimg.com/originals/96/21/95/962195497555a7631ecbddc55224884e.gif');
+}
+
+.signup-box {
+  max-width: 400px;
+  width: 100%;
+  background-color: #031522;
+  opacity: .7;
+  padding:11px;
+  border-radius: 24px;
+  box-shadow: 11px 12px 15px rgba(16, 3, 3, 0.1);
+  color:white;
+  font-size: 1rem;
+}
+
+.signup-box h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group > label {
+  font-size: 20px; /* Adjust label font size for smaller screens */
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 10px;
+  font-size: 16px; /* Adjust input font size for smaller screens */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-button {
+  background-color: #0d0b05;
+  color: #fbf9f9;
+  padding: 12px 40px; /* Adjust button padding for smaller screens */
+  font-size: 16px;
+  border: none;
+  margin: auto;
+  width:25vh;
+  margin-left: 18vh;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  left: 0;
+}
+
+.signin-link {
+  margin: 20px;
+  text-align: center;
+  font-size: 18px; /* Adjust font size for smaller screens */
+}
+
+.signin-link a {
+  color: #0066c0;
+  text-decoration: none;
+  margin-left: 12px;
+}
+
+.signin-link a:hover {
+  text-decoration: underline;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+  .signup-box {
+    max-width: 90%; /* Adjust max-width for smaller screens */
+  }
+
+  .signup-button {
+    padding: 12px 30px; /* Adjust button padding for smaller screens */
+  }
+
+  .signin-link {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+}
